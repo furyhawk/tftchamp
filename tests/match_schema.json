@@ -1,0 +1,2713 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "placement",
+        "match_id",
+        "augment0",
+        "augment1",
+        "augment2",
+        "Set7_Assassin",
+        "Set7_Astral",
+        "Set7_Bard",
+        "Set7_Bruiser",
+        "Set7_Cannoneer",
+        "Set7_Cavalier",
+        "Set7_Dragon",
+        "Set7_Dragonmancer",
+        "Set7_Evoker",
+        "Set7_Guardian",
+        "Set7_Guild",
+        "Set7_Jade",
+        "Set7_Legend",
+        "Set7_Mage",
+        "Set7_Mirage",
+        "Set7_Mystic",
+        "Set7_Ragewing",
+        "Set7_Revel",
+        "Set7_Scalescorn",
+        "Set7_Shapeshifter",
+        "Set7_Shimmerscale",
+        "Set7_SpellThief",
+        "Set7_Starcaller",
+        "Set7_Swiftshot",
+        "Set7_Tempest",
+        "Set7_Trainer",
+        "Set7_Warrior",
+        "Set7_Whispers",
+        "TFT7_Aatrox",
+        "TFT7_Aatrox_item0",
+        "TFT7_Aatrox_item1",
+        "TFT7_Aatrox_item2",
+        "TFT7_Anivia",
+        "TFT7_Anivia_item0",
+        "TFT7_Anivia_item1",
+        "TFT7_Anivia_item2",
+        "TFT7_AoShin",
+        "TFT7_AoShin_item0",
+        "TFT7_AoShin_item1",
+        "TFT7_AoShin_item2",
+        "TFT7_Ashe",
+        "TFT7_Ashe_item0",
+        "TFT7_Ashe_item1",
+        "TFT7_Ashe_item2",
+        "TFT7_AurelionSol",
+        "TFT7_AurelionSol_item0",
+        "TFT7_AurelionSol_item1",
+        "TFT7_AurelionSol_item2",
+        "TFT7_Bard",
+        "TFT7_Bard_item0",
+        "TFT7_Bard_item1",
+        "TFT7_Bard_item2",
+        "TFT7_Braum",
+        "TFT7_Braum_item0",
+        "TFT7_Braum_item1",
+        "TFT7_Braum_item2",
+        "TFT7_Corki",
+        "TFT7_Corki_item0",
+        "TFT7_Corki_item1",
+        "TFT7_Corki_item2",
+        "TFT7_Diana",
+        "TFT7_Diana_item0",
+        "TFT7_Diana_item1",
+        "TFT7_Diana_item2",
+        "TFT7_DragonBlue",
+        "TFT7_DragonBlue_item0",
+        "TFT7_DragonBlue_item1",
+        "TFT7_DragonBlue_item2",
+        "TFT7_DragonGold",
+        "TFT7_DragonGold_item0",
+        "TFT7_DragonGold_item1",
+        "TFT7_DragonGold_item2",
+        "TFT7_DragonGreen",
+        "TFT7_DragonGreen_item0",
+        "TFT7_DragonGreen_item1",
+        "TFT7_DragonGreen_item2",
+        "TFT7_DragonPurple",
+        "TFT7_DragonPurple_item0",
+        "TFT7_DragonPurple_item1",
+        "TFT7_DragonPurple_item2",
+        "TFT7_Elise",
+        "TFT7_Elise_item0",
+        "TFT7_Elise_item1",
+        "TFT7_Elise_item2",
+        "TFT7_Ezreal",
+        "TFT7_Ezreal_item0",
+        "TFT7_Ezreal_item1",
+        "TFT7_Ezreal_item2",
+        "TFT7_Gnar",
+        "TFT7_Gnar_item0",
+        "TFT7_Gnar_item1",
+        "TFT7_Gnar_item2",
+        "TFT7_Hecarim",
+        "TFT7_Hecarim_item0",
+        "TFT7_Hecarim_item1",
+        "TFT7_Hecarim_item2",
+        "TFT7_Heimerdinger",
+        "TFT7_Heimerdinger_item0",
+        "TFT7_Heimerdinger_item1",
+        "TFT7_Heimerdinger_item2",
+        "TFT7_Illaoi",
+        "TFT7_Illaoi_item0",
+        "TFT7_Illaoi_item1",
+        "TFT7_Illaoi_item2",
+        "TFT7_Jinx",
+        "TFT7_Jinx_item0",
+        "TFT7_Jinx_item1",
+        "TFT7_Jinx_item2",
+        "TFT7_Karma",
+        "TFT7_Karma_item0",
+        "TFT7_Karma_item1",
+        "TFT7_Karma_item2",
+        "TFT7_Kayn",
+        "TFT7_Kayn_item0",
+        "TFT7_Kayn_item1",
+        "TFT7_Kayn_item2",
+        "TFT7_LeeSin",
+        "TFT7_LeeSin_item0",
+        "TFT7_LeeSin_item1",
+        "TFT7_LeeSin_item2",
+        "TFT7_Leona",
+        "TFT7_Leona_item0",
+        "TFT7_Leona_item1",
+        "TFT7_Leona_item2",
+        "TFT7_Lillia",
+        "TFT7_Lillia_item0",
+        "TFT7_Lillia_item1",
+        "TFT7_Lillia_item2",
+        "TFT7_Lulu",
+        "TFT7_Lulu_item0",
+        "TFT7_Lulu_item1",
+        "TFT7_Lulu_item2",
+        "TFT7_Nami",
+        "TFT7_Nami_item0",
+        "TFT7_Nami_item1",
+        "TFT7_Nami_item2",
+        "TFT7_Neeko",
+        "TFT7_Neeko_item0",
+        "TFT7_Neeko_item1",
+        "TFT7_Neeko_item2",
+        "TFT7_Nidalee",
+        "TFT7_Nidalee_item0",
+        "TFT7_Nidalee_item1",
+        "TFT7_Nidalee_item2",
+        "TFT7_Nunu",
+        "TFT7_Nunu_item0",
+        "TFT7_Nunu_item1",
+        "TFT7_Nunu_item2",
+        "TFT7_Olaf",
+        "TFT7_Olaf_item0",
+        "TFT7_Olaf_item1",
+        "TFT7_Olaf_item2",
+        "TFT7_Ornn",
+        "TFT7_Ornn_item0",
+        "TFT7_Ornn_item1",
+        "TFT7_Ornn_item2",
+        "TFT7_Pyke",
+        "TFT7_Pyke_item0",
+        "TFT7_Pyke_item1",
+        "TFT7_Pyke_item2",
+        "TFT7_Qiyana",
+        "TFT7_Qiyana_item0",
+        "TFT7_Qiyana_item1",
+        "TFT7_Qiyana_item2",
+        "TFT7_Ryze",
+        "TFT7_Ryze_item0",
+        "TFT7_Ryze_item1",
+        "TFT7_Ryze_item2",
+        "TFT7_Sejuani",
+        "TFT7_Sejuani_item0",
+        "TFT7_Sejuani_item1",
+        "TFT7_Sejuani_item2",
+        "TFT7_Senna",
+        "TFT7_Senna_item0",
+        "TFT7_Senna_item1",
+        "TFT7_Senna_item2",
+        "TFT7_Sett",
+        "TFT7_Sett_item0",
+        "TFT7_Sett_item1",
+        "TFT7_Sett_item2",
+        "TFT7_Shen",
+        "TFT7_Shen_item0",
+        "TFT7_Shen_item1",
+        "TFT7_Shen_item2",
+        "TFT7_Shyvana",
+        "TFT7_Shyvana_item0",
+        "TFT7_Shyvana_item1",
+        "TFT7_Shyvana_item2",
+        "TFT7_Skarner",
+        "TFT7_Skarner_item0",
+        "TFT7_Skarner_item1",
+        "TFT7_Skarner_item2",
+        "TFT7_Sona",
+        "TFT7_Sona_item0",
+        "TFT7_Sona_item1",
+        "TFT7_Sona_item2",
+        "TFT7_Soraka",
+        "TFT7_Soraka_item0",
+        "TFT7_Soraka_item1",
+        "TFT7_Soraka_item2",
+        "TFT7_Swain",
+        "TFT7_Swain_item0",
+        "TFT7_Swain_item1",
+        "TFT7_Swain_item2",
+        "TFT7_Sylas",
+        "TFT7_Sylas_item0",
+        "TFT7_Sylas_item1",
+        "TFT7_Sylas_item2",
+        "TFT7_TahmKench",
+        "TFT7_TahmKench_item0",
+        "TFT7_TahmKench_item1",
+        "TFT7_TahmKench_item2",
+        "TFT7_Talon",
+        "TFT7_Talon_item0",
+        "TFT7_Talon_item1",
+        "TFT7_Talon_item2",
+        "TFT7_Taric",
+        "TFT7_Taric_item0",
+        "TFT7_Taric_item1",
+        "TFT7_Taric_item2",
+        "TFT7_Thresh",
+        "TFT7_Thresh_item0",
+        "TFT7_Thresh_item1",
+        "TFT7_Thresh_item2",
+        "TFT7_TrainerDragon",
+        "TFT7_TrainerDragon_item0",
+        "TFT7_TrainerDragon_item1",
+        "TFT7_TrainerDragon_item2",
+        "TFT7_Tristana",
+        "TFT7_Tristana_item0",
+        "TFT7_Tristana_item1",
+        "TFT7_Tristana_item2",
+        "TFT7_Twitch",
+        "TFT7_Twitch_item0",
+        "TFT7_Twitch_item1",
+        "TFT7_Twitch_item2",
+        "TFT7_Varus",
+        "TFT7_Varus_item0",
+        "TFT7_Varus_item1",
+        "TFT7_Varus_item2",
+        "TFT7_Vladimir",
+        "TFT7_Vladimir_item0",
+        "TFT7_Vladimir_item1",
+        "TFT7_Vladimir_item2",
+        "TFT7_Volibear",
+        "TFT7_Volibear_item0",
+        "TFT7_Volibear_item1",
+        "TFT7_Volibear_item2",
+        "TFT7_Xayah",
+        "TFT7_Xayah_item0",
+        "TFT7_Xayah_item1",
+        "TFT7_Xayah_item2",
+        "TFT7_Yasuo",
+        "TFT7_Yasuo_item0",
+        "TFT7_Yasuo_item1",
+        "TFT7_Yasuo_item2",
+        "TFT7_Yone",
+        "TFT7_Yone_item0",
+        "TFT7_Yone_item1",
+        "TFT7_Yone_item2",
+        "TFT7_Zoe",
+        "TFT7_Zoe_item0",
+        "TFT7_Zoe_item1",
+        "TFT7_Zoe_item2",
+        "_id"
+    ],
+    "properties": {
+        "placement": {
+            "type": "integer",
+            "default": 0,
+            "title": "The placement Schema",
+            "examples": [
+                8
+            ]
+        },
+        "match_id": {
+            "type": "string",
+            "default": "",
+            "title": "The match_id Schema",
+            "examples": [
+                "NA1_4387530978"
+            ]
+        },
+        "augment0": {
+            "type": "string",
+            "default": "",
+            "title": "The augment0 Schema",
+            "examples": [
+                "TFT6_Augment_BlueBattery2"
+            ]
+        },
+        "augment1": {
+            "type": "string",
+            "default": "",
+            "title": "The augment1 Schema",
+            "examples": [
+                "TFT6_Augment_TinyTitans"
+            ]
+        },
+        "augment2": {
+            "type": "string",
+            "default": "",
+            "title": "The augment2 Schema",
+            "examples": [
+                "TFT7_Augment_UrfsGrabBag1"
+            ]
+        },
+        "Set7_Assassin": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The Set7_Assassin Schema",
+            "examples": [
+                2.0
+            ]
+        },
+        "Set7_Astral": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Astral Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Bard": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Bard Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Bruiser": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The Set7_Bruiser Schema",
+            "examples": [
+                1.0
+            ]
+        },
+        "Set7_Cannoneer": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Cannoneer Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Cavalier": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Cavalier Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Dragon": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The Set7_Dragon Schema",
+            "examples": [
+                1.0
+            ]
+        },
+        "Set7_Dragonmancer": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Dragonmancer Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Evoker": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Evoker Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Guardian": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Guardian Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Guild": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The Set7_Guild Schema",
+            "examples": [
+                1.0
+            ]
+        },
+        "Set7_Jade": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Jade Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Legend": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The Set7_Legend Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "Set7_Mage": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The Set7_Mage Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "Set7_Mirage": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Mirage Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Mystic": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Mystic Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Ragewing": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Ragewing Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Revel": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Revel Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Scalescorn": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The Set7_Scalescorn Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "Set7_Shapeshifter": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The Set7_Shapeshifter Schema",
+            "examples": [
+                0.0
+            ]
+        },
+        "Set7_Shimmerscale": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Shimmerscale Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_SpellThief": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_SpellThief Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Starcaller": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Starcaller Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Swiftshot": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Swiftshot Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Tempest": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The Set7_Tempest Schema",
+            "examples": [
+                1.0
+            ]
+        },
+        "Set7_Trainer": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Trainer Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Warrior": {
+            "type": "null",
+            "default": null,
+            "title": "The Set7_Warrior Schema",
+            "examples": [
+                null
+            ]
+        },
+        "Set7_Whispers": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The Set7_Whispers Schema",
+            "examples": [
+                3.0
+            ]
+        },
+        "TFT7_Aatrox": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Aatrox Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Aatrox_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Aatrox_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Aatrox_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Aatrox_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Aatrox_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Aatrox_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Anivia": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Anivia Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Anivia_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Anivia_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Anivia_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Anivia_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Anivia_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Anivia_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_AoShin": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_AoShin Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_AoShin_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_AoShin_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_AoShin_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_AoShin_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_AoShin_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_AoShin_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Ashe": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Ashe Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Ashe_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Ashe_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Ashe_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Ashe_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Ashe_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Ashe_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_AurelionSol": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_AurelionSol Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_AurelionSol_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_AurelionSol_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_AurelionSol_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_AurelionSol_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_AurelionSol_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_AurelionSol_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Bard": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Bard Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Bard_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Bard_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Bard_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Bard_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Bard_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Bard_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Braum": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Braum Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Braum_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Braum_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Braum_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Braum_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Braum_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Braum_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Corki": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Corki Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Corki_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Corki_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Corki_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Corki_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Corki_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Corki_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Diana": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The TFT7_Diana Schema",
+            "examples": [
+                1.0
+            ]
+        },
+        "TFT7_Diana_item0": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_Diana_item0 Schema",
+            "examples": [
+                "ForceOfNature"
+            ]
+        },
+        "TFT7_Diana_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Diana_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Diana_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Diana_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_DragonBlue": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_DragonBlue Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_DragonBlue_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_DragonBlue_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_DragonBlue_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_DragonBlue_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_DragonBlue_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_DragonBlue_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_DragonGold": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_DragonGold Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_DragonGold_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_DragonGold_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_DragonGold_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_DragonGold_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_DragonGold_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_DragonGold_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_DragonGreen": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_DragonGreen Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_DragonGreen_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_DragonGreen_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_DragonGreen_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_DragonGreen_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_DragonGreen_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_DragonGreen_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_DragonPurple": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The TFT7_DragonPurple Schema",
+            "examples": [
+                2.0
+            ]
+        },
+        "TFT7_DragonPurple_item0": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_DragonPurple_item0 Schema",
+            "examples": [
+                "InfinityEdge"
+            ]
+        },
+        "TFT7_DragonPurple_item1": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_DragonPurple_item1 Schema",
+            "examples": [
+                "UnstableConcoction"
+            ]
+        },
+        "TFT7_DragonPurple_item2": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_DragonPurple_item2 Schema",
+            "examples": [
+                "GuardianAngel"
+            ]
+        },
+        "TFT7_Elise": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The TFT7_Elise Schema",
+            "examples": [
+                2.0
+            ]
+        },
+        "TFT7_Elise_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Elise_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Elise_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Elise_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Elise_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Elise_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Ezreal": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Ezreal Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Ezreal_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Ezreal_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Ezreal_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Ezreal_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Ezreal_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Ezreal_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Gnar": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Gnar Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Gnar_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Gnar_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Gnar_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Gnar_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Gnar_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Gnar_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Hecarim": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Hecarim Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Hecarim_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Hecarim_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Hecarim_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Hecarim_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Hecarim_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Hecarim_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Heimerdinger": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Heimerdinger Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Heimerdinger_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Heimerdinger_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Heimerdinger_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Heimerdinger_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Heimerdinger_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Heimerdinger_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Illaoi": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Illaoi Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Illaoi_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Illaoi_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Illaoi_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Illaoi_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Illaoi_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Illaoi_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Jinx": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Jinx Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Jinx_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Jinx_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Jinx_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Jinx_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Jinx_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Jinx_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Karma": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Karma Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Karma_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Karma_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Karma_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Karma_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Karma_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Karma_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Kayn": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Kayn Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Kayn_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Kayn_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Kayn_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Kayn_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Kayn_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Kayn_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_LeeSin": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_LeeSin Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_LeeSin_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_LeeSin_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_LeeSin_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_LeeSin_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_LeeSin_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_LeeSin_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Leona": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Leona Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Leona_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Leona_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Leona_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Leona_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Leona_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Leona_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Lillia": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Lillia Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Lillia_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Lillia_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Lillia_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Lillia_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Lillia_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Lillia_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Lulu": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Lulu Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Lulu_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Lulu_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Lulu_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Lulu_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Lulu_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Lulu_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Nami": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Nami Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Nami_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Nami_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Nami_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Nami_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Nami_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Nami_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Neeko": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Neeko Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Neeko_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Neeko_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Neeko_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Neeko_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Neeko_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Neeko_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Nidalee": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Nidalee Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Nidalee_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Nidalee_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Nidalee_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Nidalee_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Nidalee_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Nidalee_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Nunu": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Nunu Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Nunu_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Nunu_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Nunu_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Nunu_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Nunu_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Nunu_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Olaf": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Olaf Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Olaf_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Olaf_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Olaf_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Olaf_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Olaf_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Olaf_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Ornn": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The TFT7_Ornn Schema",
+            "examples": [
+                1.0
+            ]
+        },
+        "TFT7_Ornn_item0": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_Ornn_item0 Schema",
+            "examples": [
+                "Morellonomicon"
+            ]
+        },
+        "TFT7_Ornn_item1": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_Ornn_item1 Schema",
+            "examples": [
+                "GargoyleStoneplate"
+            ]
+        },
+        "TFT7_Ornn_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Ornn_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Pyke": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The TFT7_Pyke Schema",
+            "examples": [
+                1.0
+            ]
+        },
+        "TFT7_Pyke_item0": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_Pyke_item0 Schema",
+            "examples": [
+                "Zephyr"
+            ]
+        },
+        "TFT7_Pyke_item1": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_Pyke_item1 Schema",
+            "examples": [
+                "InfinityEdge"
+            ]
+        },
+        "TFT7_Pyke_item2": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_Pyke_item2 Schema",
+            "examples": [
+                "FrozenHeart"
+            ]
+        },
+        "TFT7_Qiyana": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The TFT7_Qiyana Schema",
+            "examples": [
+                1.0
+            ]
+        },
+        "TFT7_Qiyana_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Qiyana_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Qiyana_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Qiyana_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Qiyana_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Qiyana_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Ryze": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Ryze Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Ryze_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Ryze_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Ryze_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Ryze_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Ryze_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Ryze_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sejuani": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sejuani Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sejuani_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sejuani_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sejuani_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sejuani_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sejuani_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sejuani_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Senna": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Senna Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Senna_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Senna_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Senna_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Senna_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Senna_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Senna_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sett": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sett Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sett_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sett_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sett_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sett_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sett_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sett_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Shen": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Shen Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Shen_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Shen_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Shen_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Shen_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Shen_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Shen_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Shyvana": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Shyvana Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Shyvana_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Shyvana_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Shyvana_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Shyvana_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Shyvana_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Shyvana_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Skarner": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Skarner Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Skarner_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Skarner_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Skarner_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Skarner_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Skarner_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Skarner_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sona": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sona Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sona_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sona_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sona_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sona_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sona_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sona_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Soraka": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Soraka Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Soraka_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Soraka_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Soraka_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Soraka_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Soraka_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Soraka_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Swain": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Swain Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Swain_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Swain_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Swain_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Swain_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Swain_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Swain_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sylas": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The TFT7_Sylas Schema",
+            "examples": [
+                2.0
+            ]
+        },
+        "TFT7_Sylas_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sylas_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sylas_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sylas_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Sylas_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Sylas_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_TahmKench": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_TahmKench Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_TahmKench_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_TahmKench_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_TahmKench_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_TahmKench_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_TahmKench_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_TahmKench_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Talon": {
+            "type": "number",
+            "default": 0.0,
+            "title": "The TFT7_Talon Schema",
+            "examples": [
+                2.0
+            ]
+        },
+        "TFT7_Talon_item0": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_Talon_item0 Schema",
+            "examples": [
+                "ThiefsGloves"
+            ]
+        },
+        "TFT7_Talon_item1": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_Talon_item1 Schema",
+            "examples": [
+                "FrozenHeart"
+            ]
+        },
+        "TFT7_Talon_item2": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_Talon_item2 Schema",
+            "examples": [
+                "GuardianAngel"
+            ]
+        },
+        "TFT7_Taric": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Taric Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Taric_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Taric_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Taric_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Taric_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Taric_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Taric_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Thresh": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Thresh Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Thresh_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Thresh_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Thresh_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Thresh_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Thresh_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Thresh_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_TrainerDragon": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_TrainerDragon Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_TrainerDragon_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_TrainerDragon_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_TrainerDragon_item1": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_TrainerDragon_item1 Schema",
+            "examples": [
+                "None"
+            ]
+        },
+        "TFT7_TrainerDragon_item2": {
+            "type": "string",
+            "default": "",
+            "title": "The TFT7_TrainerDragon_item2 Schema",
+            "examples": [
+                "None"
+            ]
+        },
+        "TFT7_Tristana": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Tristana Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Tristana_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Tristana_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Tristana_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Tristana_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Tristana_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Tristana_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Twitch": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Twitch Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Twitch_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Twitch_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Twitch_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Twitch_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Twitch_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Twitch_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Varus": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Varus Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Varus_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Varus_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Varus_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Varus_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Varus_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Varus_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Vladimir": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Vladimir Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Vladimir_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Vladimir_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Vladimir_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Vladimir_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Vladimir_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Vladimir_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Volibear": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Volibear Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Volibear_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Volibear_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Volibear_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Volibear_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Volibear_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Volibear_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Xayah": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Xayah Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Xayah_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Xayah_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Xayah_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Xayah_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Xayah_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Xayah_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Yasuo": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Yasuo Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Yasuo_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Yasuo_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Yasuo_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Yasuo_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Yasuo_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Yasuo_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Yone": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Yone Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Yone_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Yone_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Yone_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Yone_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Yone_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Yone_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Zoe": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Zoe Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Zoe_item0": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Zoe_item0 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Zoe_item1": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Zoe_item1 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "TFT7_Zoe_item2": {
+            "type": "null",
+            "default": null,
+            "title": "The TFT7_Zoe_item2 Schema",
+            "examples": [
+                null
+            ]
+        },
+        "_id": {
+            "type": "string",
+            "default": "",
+            "title": "The _id Schema",
+            "examples": [
+                "NA1_4387530978-wgvrKfcuCGDmgyrUmiXknS41acg6Y26hfQwsXNj_eJ86Tv8_Bb7SBOUVSQqI1JdyBSmq92XGDrGYHA"
+            ]
+        }
+    },
+    "examples": [{
+        "placement": 8,
+        "match_id": "NA1_4387530978",
+        "augment0": "TFT6_Augment_BlueBattery2",
+        "augment1": "TFT6_Augment_TinyTitans",
+        "augment2": "TFT7_Augment_UrfsGrabBag1",
+        "Set7_Assassin": 2.0,
+        "Set7_Astral": null,
+        "Set7_Bard": null,
+        "Set7_Bruiser": 1.0,
+        "Set7_Cannoneer": null,
+        "Set7_Cavalier": null,
+        "Set7_Dragon": 1.0,
+        "Set7_Dragonmancer": null,
+        "Set7_Evoker": null,
+        "Set7_Guardian": null,
+        "Set7_Guild": 1.0,
+        "Set7_Jade": null,
+        "Set7_Legend": 0.0,
+        "Set7_Mage": 0.0,
+        "Set7_Mirage": null,
+        "Set7_Mystic": null,
+        "Set7_Ragewing": null,
+        "Set7_Revel": null,
+        "Set7_Scalescorn": 0.0,
+        "Set7_Shapeshifter": 0.0,
+        "Set7_Shimmerscale": null,
+        "Set7_SpellThief": null,
+        "Set7_Starcaller": null,
+        "Set7_Swiftshot": null,
+        "Set7_Tempest": 1.0,
+        "Set7_Trainer": null,
+        "Set7_Warrior": null,
+        "Set7_Whispers": 3.0,
+        "TFT7_Aatrox": null,
+        "TFT7_Aatrox_item0": null,
+        "TFT7_Aatrox_item1": null,
+        "TFT7_Aatrox_item2": null,
+        "TFT7_Anivia": null,
+        "TFT7_Anivia_item0": null,
+        "TFT7_Anivia_item1": null,
+        "TFT7_Anivia_item2": null,
+        "TFT7_AoShin": null,
+        "TFT7_AoShin_item0": null,
+        "TFT7_AoShin_item1": null,
+        "TFT7_AoShin_item2": null,
+        "TFT7_Ashe": null,
+        "TFT7_Ashe_item0": null,
+        "TFT7_Ashe_item1": null,
+        "TFT7_Ashe_item2": null,
+        "TFT7_AurelionSol": null,
+        "TFT7_AurelionSol_item0": null,
+        "TFT7_AurelionSol_item1": null,
+        "TFT7_AurelionSol_item2": null,
+        "TFT7_Bard": null,
+        "TFT7_Bard_item0": null,
+        "TFT7_Bard_item1": null,
+        "TFT7_Bard_item2": null,
+        "TFT7_Braum": null,
+        "TFT7_Braum_item0": null,
+        "TFT7_Braum_item1": null,
+        "TFT7_Braum_item2": null,
+        "TFT7_Corki": null,
+        "TFT7_Corki_item0": null,
+        "TFT7_Corki_item1": null,
+        "TFT7_Corki_item2": null,
+        "TFT7_Diana": 1.0,
+        "TFT7_Diana_item0": "ForceOfNature",
+        "TFT7_Diana_item1": null,
+        "TFT7_Diana_item2": null,
+        "TFT7_DragonBlue": null,
+        "TFT7_DragonBlue_item0": null,
+        "TFT7_DragonBlue_item1": null,
+        "TFT7_DragonBlue_item2": null,
+        "TFT7_DragonGold": null,
+        "TFT7_DragonGold_item0": null,
+        "TFT7_DragonGold_item1": null,
+        "TFT7_DragonGold_item2": null,
+        "TFT7_DragonGreen": null,
+        "TFT7_DragonGreen_item0": null,
+        "TFT7_DragonGreen_item1": null,
+        "TFT7_DragonGreen_item2": null,
+        "TFT7_DragonPurple": 2.0,
+        "TFT7_DragonPurple_item0": "InfinityEdge",
+        "TFT7_DragonPurple_item1": "UnstableConcoction",
+        "TFT7_DragonPurple_item2": "GuardianAngel",
+        "TFT7_Elise": 2.0,
+        "TFT7_Elise_item0": null,
+        "TFT7_Elise_item1": null,
+        "TFT7_Elise_item2": null,
+        "TFT7_Ezreal": null,
+        "TFT7_Ezreal_item0": null,
+        "TFT7_Ezreal_item1": null,
+        "TFT7_Ezreal_item2": null,
+        "TFT7_Gnar": null,
+        "TFT7_Gnar_item0": null,
+        "TFT7_Gnar_item1": null,
+        "TFT7_Gnar_item2": null,
+        "TFT7_Hecarim": null,
+        "TFT7_Hecarim_item0": null,
+        "TFT7_Hecarim_item1": null,
+        "TFT7_Hecarim_item2": null,
+        "TFT7_Heimerdinger": null,
+        "TFT7_Heimerdinger_item0": null,
+        "TFT7_Heimerdinger_item1": null,
+        "TFT7_Heimerdinger_item2": null,
+        "TFT7_Illaoi": null,
+        "TFT7_Illaoi_item0": null,
+        "TFT7_Illaoi_item1": null,
+        "TFT7_Illaoi_item2": null,
+        "TFT7_Jinx": null,
+        "TFT7_Jinx_item0": null,
+        "TFT7_Jinx_item1": null,
+        "TFT7_Jinx_item2": null,
+        "TFT7_Karma": null,
+        "TFT7_Karma_item0": null,
+        "TFT7_Karma_item1": null,
+        "TFT7_Karma_item2": null,
+        "TFT7_Kayn": null,
+        "TFT7_Kayn_item0": null,
+        "TFT7_Kayn_item1": null,
+        "TFT7_Kayn_item2": null,
+        "TFT7_LeeSin": null,
+        "TFT7_LeeSin_item0": null,
+        "TFT7_LeeSin_item1": null,
+        "TFT7_LeeSin_item2": null,
+        "TFT7_Leona": null,
+        "TFT7_Leona_item0": null,
+        "TFT7_Leona_item1": null,
+        "TFT7_Leona_item2": null,
+        "TFT7_Lillia": null,
+        "TFT7_Lillia_item0": null,
+        "TFT7_Lillia_item1": null,
+        "TFT7_Lillia_item2": null,
+        "TFT7_Lulu": null,
+        "TFT7_Lulu_item0": null,
+        "TFT7_Lulu_item1": null,
+        "TFT7_Lulu_item2": null,
+        "TFT7_Nami": null,
+        "TFT7_Nami_item0": null,
+        "TFT7_Nami_item1": null,
+        "TFT7_Nami_item2": null,
+        "TFT7_Neeko": null,
+        "TFT7_Neeko_item0": null,
+        "TFT7_Neeko_item1": null,
+        "TFT7_Neeko_item2": null,
+        "TFT7_Nidalee": null,
+        "TFT7_Nidalee_item0": null,
+        "TFT7_Nidalee_item1": null,
+        "TFT7_Nidalee_item2": null,
+        "TFT7_Nunu": null,
+        "TFT7_Nunu_item0": null,
+        "TFT7_Nunu_item1": null,
+        "TFT7_Nunu_item2": null,
+        "TFT7_Olaf": null,
+        "TFT7_Olaf_item0": null,
+        "TFT7_Olaf_item1": null,
+        "TFT7_Olaf_item2": null,
+        "TFT7_Ornn": 1.0,
+        "TFT7_Ornn_item0": "Morellonomicon",
+        "TFT7_Ornn_item1": "GargoyleStoneplate",
+        "TFT7_Ornn_item2": null,
+        "TFT7_Pyke": 1.0,
+        "TFT7_Pyke_item0": "Zephyr",
+        "TFT7_Pyke_item1": "InfinityEdge",
+        "TFT7_Pyke_item2": "FrozenHeart",
+        "TFT7_Qiyana": 1.0,
+        "TFT7_Qiyana_item0": null,
+        "TFT7_Qiyana_item1": null,
+        "TFT7_Qiyana_item2": null,
+        "TFT7_Ryze": null,
+        "TFT7_Ryze_item0": null,
+        "TFT7_Ryze_item1": null,
+        "TFT7_Ryze_item2": null,
+        "TFT7_Sejuani": null,
+        "TFT7_Sejuani_item0": null,
+        "TFT7_Sejuani_item1": null,
+        "TFT7_Sejuani_item2": null,
+        "TFT7_Senna": null,
+        "TFT7_Senna_item0": null,
+        "TFT7_Senna_item1": null,
+        "TFT7_Senna_item2": null,
+        "TFT7_Sett": null,
+        "TFT7_Sett_item0": null,
+        "TFT7_Sett_item1": null,
+        "TFT7_Sett_item2": null,
+        "TFT7_Shen": null,
+        "TFT7_Shen_item0": null,
+        "TFT7_Shen_item1": null,
+        "TFT7_Shen_item2": null,
+        "TFT7_Shyvana": null,
+        "TFT7_Shyvana_item0": null,
+        "TFT7_Shyvana_item1": null,
+        "TFT7_Shyvana_item2": null,
+        "TFT7_Skarner": null,
+        "TFT7_Skarner_item0": null,
+        "TFT7_Skarner_item1": null,
+        "TFT7_Skarner_item2": null,
+        "TFT7_Sona": null,
+        "TFT7_Sona_item0": null,
+        "TFT7_Sona_item1": null,
+        "TFT7_Sona_item2": null,
+        "TFT7_Soraka": null,
+        "TFT7_Soraka_item0": null,
+        "TFT7_Soraka_item1": null,
+        "TFT7_Soraka_item2": null,
+        "TFT7_Swain": null,
+        "TFT7_Swain_item0": null,
+        "TFT7_Swain_item1": null,
+        "TFT7_Swain_item2": null,
+        "TFT7_Sylas": 2.0,
+        "TFT7_Sylas_item0": null,
+        "TFT7_Sylas_item1": null,
+        "TFT7_Sylas_item2": null,
+        "TFT7_TahmKench": null,
+        "TFT7_TahmKench_item0": null,
+        "TFT7_TahmKench_item1": null,
+        "TFT7_TahmKench_item2": null,
+        "TFT7_Talon": 2.0,
+        "TFT7_Talon_item0": "ThiefsGloves",
+        "TFT7_Talon_item1": "FrozenHeart",
+        "TFT7_Talon_item2": "GuardianAngel",
+        "TFT7_Taric": null,
+        "TFT7_Taric_item0": null,
+        "TFT7_Taric_item1": null,
+        "TFT7_Taric_item2": null,
+        "TFT7_Thresh": null,
+        "TFT7_Thresh_item0": null,
+        "TFT7_Thresh_item1": null,
+        "TFT7_Thresh_item2": null,
+        "TFT7_TrainerDragon": null,
+        "TFT7_TrainerDragon_item0": null,
+        "TFT7_TrainerDragon_item1": "None",
+        "TFT7_TrainerDragon_item2": "None",
+        "TFT7_Tristana": null,
+        "TFT7_Tristana_item0": null,
+        "TFT7_Tristana_item1": null,
+        "TFT7_Tristana_item2": null,
+        "TFT7_Twitch": null,
+        "TFT7_Twitch_item0": null,
+        "TFT7_Twitch_item1": null,
+        "TFT7_Twitch_item2": null,
+        "TFT7_Varus": null,
+        "TFT7_Varus_item0": null,
+        "TFT7_Varus_item1": null,
+        "TFT7_Varus_item2": null,
+        "TFT7_Vladimir": null,
+        "TFT7_Vladimir_item0": null,
+        "TFT7_Vladimir_item1": null,
+        "TFT7_Vladimir_item2": null,
+        "TFT7_Volibear": null,
+        "TFT7_Volibear_item0": null,
+        "TFT7_Volibear_item1": null,
+        "TFT7_Volibear_item2": null,
+        "TFT7_Xayah": null,
+        "TFT7_Xayah_item0": null,
+        "TFT7_Xayah_item1": null,
+        "TFT7_Xayah_item2": null,
+        "TFT7_Yasuo": null,
+        "TFT7_Yasuo_item0": null,
+        "TFT7_Yasuo_item1": null,
+        "TFT7_Yasuo_item2": null,
+        "TFT7_Yone": null,
+        "TFT7_Yone_item0": null,
+        "TFT7_Yone_item1": null,
+        "TFT7_Yone_item2": null,
+        "TFT7_Zoe": null,
+        "TFT7_Zoe_item0": null,
+        "TFT7_Zoe_item1": null,
+        "TFT7_Zoe_item2": null,
+        "_id": "NA1_4387530978-wgvrKfcuCGDmgyrUmiXknS41acg6Y26hfQwsXNj_eJ86Tv8_Bb7SBOUVSQqI1JdyBSmq92XGDrGYHA"
+    }]
+}

@@ -1,0 +1,11 @@
+version: '3'
+services: 
+    frontend:
+        image: furyhawk/tftchamp_frontend:latest
+        build: 
+            context: .
+            dockerfile: Dockerfile.dev
+        command: npm start
+        container_name: tftchamp_frontend_dev
+        ports:
+            - "3000:3000"        

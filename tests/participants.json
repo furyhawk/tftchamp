@@ -1,0 +1,603 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "participants"
+    ],
+    "properties": {
+        "participants": {
+            "type": "array",
+            "default": [],
+            "title": "The participants Schema",
+            "items": {
+                "type": "object",
+                "default": {},
+                "title": "A Schema",
+                "required": [
+                    "augments",
+                    "companion",
+                    "gold_left",
+                    "last_round",
+                    "level",
+                    "placement",
+                    "players_eliminated",
+                    "puuid",
+                    "time_eliminated",
+                    "total_damage_to_players",
+                    "traits",
+                    "units"
+                ],
+                "properties": {
+                    "augments": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The augments Schema",
+                        "items": {
+                            "type": "string",
+                            "title": "A Schema",
+                            "examples": [
+                                "TFT7_Augment_AxiomArc1",
+                                "TFT6_Augment_SecondWind1",
+                                "TFT7_Augment_DragonmancerInspire"
+                            ]
+                        },
+                        "examples": [
+                            ["TFT7_Augment_AxiomArc1",
+                                "TFT6_Augment_SecondWind1",
+                                "TFT7_Augment_DragonmancerInspire"
+                            ]
+                        ]
+                    },
+                    "companion": {
+                        "type": "object",
+                        "default": {},
+                        "title": "The companion Schema",
+                        "required": [
+                            "content_ID",
+                            "skin_ID",
+                            "species"
+                        ],
+                        "properties": {
+                            "content_ID": {
+                                "type": "string",
+                                "default": "",
+                                "title": "The content_ID Schema",
+                                "examples": [
+                                    "023144c0-80e7-445e-846e-82b0883b9ada"
+                                ]
+                            },
+                            "skin_ID": {
+                                "type": "integer",
+                                "default": 0,
+                                "title": "The skin_ID Schema",
+                                "examples": [
+                                    33
+                                ]
+                            },
+                            "species": {
+                                "type": "string",
+                                "default": "",
+                                "title": "The species Schema",
+                                "examples": [
+                                    "PetDowsie"
+                                ]
+                            }
+                        },
+                        "examples": [{
+                            "content_ID": "023144c0-80e7-445e-846e-82b0883b9ada",
+                            "skin_ID": 33,
+                            "species": "PetDowsie"
+                        }]
+                    },
+                    "gold_left": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The gold_left Schema",
+                        "examples": [
+                            1
+                        ]
+                    },
+                    "last_round": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The last_round Schema",
+                        "examples": [
+                            30
+                        ]
+                    },
+                    "level": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The level Schema",
+                        "examples": [
+                            8
+                        ]
+                    },
+                    "placement": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The placement Schema",
+                        "examples": [
+                            6
+                        ]
+                    },
+                    "players_eliminated": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The players_eliminated Schema",
+                        "examples": [
+                            0
+                        ]
+                    },
+                    "puuid": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The puuid Schema",
+                        "examples": [
+                            "OnW1Dw_JX8vapRJEb-ZVjqdKVknpD2IGd6ZWowLTrkmoEeqZlGZTx6iR5yVW6a5tu5JVwEeDl5pToA"
+                        ]
+                    },
+                    "time_eliminated": {
+                        "type": "number",
+                        "default": 0.0,
+                        "title": "The time_eliminated Schema",
+                        "examples": [
+                            1806.2384033203125
+                        ]
+                    },
+                    "total_damage_to_players": {
+                        "type": "integer",
+                        "default": 0,
+                        "title": "The total_damage_to_players Schema",
+                        "examples": [
+                            66
+                        ]
+                    },
+                    "traits": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The traits Schema",
+                        "items": {
+                            "type": "object",
+                            "title": "A Schema",
+                            "required": [
+                                "name",
+                                "num_units",
+                                "style",
+                                "tier_current",
+                                "tier_total"
+                            ],
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "title": "The name Schema",
+                                    "examples": [
+                                        "Set7_Cavalier",
+                                        "Set7_Dragonmancer"
+                                    ]
+                                },
+                                "num_units": {
+                                    "type": "integer",
+                                    "title": "The num_units Schema",
+                                    "examples": [
+                                        1,
+                                        6
+                                    ]
+                                },
+                                "style": {
+                                    "type": "integer",
+                                    "title": "The style Schema",
+                                    "examples": [
+                                        0,
+                                        3
+                                    ]
+                                },
+                                "tier_current": {
+                                    "type": "integer",
+                                    "title": "The tier_current Schema",
+                                    "examples": [
+                                        0,
+                                        2
+                                    ]
+                                },
+                                "tier_total": {
+                                    "type": "integer",
+                                    "title": "The tier_total Schema",
+                                    "examples": [
+                                        4,
+                                        3
+                                    ]
+                                }
+                            },
+                            "examples": [{
+                                "name": "Set7_Cavalier",
+                                "num_units": 1,
+                                "style": 0,
+                                "tier_current": 0,
+                                "tier_total": 4
+                            },
+                            {
+                                "name": "Set7_Dragonmancer",
+                                "num_units": 6,
+                                "style": 3,
+                                "tier_current": 2,
+                                "tier_total": 3
+                            }]
+                        },
+                        "examples": [
+                            [{
+                                "name": "Set7_Cavalier",
+                                "num_units": 1,
+                                "style": 0,
+                                "tier_current": 0,
+                                "tier_total": 4
+                            },
+                            {
+                                "name": "Set7_Dragonmancer",
+                                "num_units": 6,
+                                "style": 3,
+                                "tier_current": 2,
+                                "tier_total": 3
+                            }]
+                        ]
+                    },
+                    "units": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The units Schema",
+                        "items": {
+                            "type": "object",
+                            "title": "A Schema",
+                            "required": [
+                                "character_id",
+                                "itemNames",
+                                "items",
+                                "name",
+                                "rarity",
+                                "tier"
+                            ],
+                            "properties": {
+                                "character_id": {
+                                    "type": "string",
+                                    "title": "The character_id Schema",
+                                    "examples": [
+                                        "TFT7_Swain",
+                                        "TFT7_LeeSin"
+                                    ]
+                                },
+                                "itemNames": {
+                                    "type": "array",
+                                    "title": "The itemNames Schema",
+                                    "items": {
+                                        "type": "string",
+                                        "title": "A Schema",
+                                        "examples": [
+                                            "TFT_Item_StatikkShiv",
+                                            "TFT_Item_Quicksilver",
+                                            "TFT_Item_ArchangelsStaff",
+                                            "TFT_Item_RedBuff",
+                                            "TFT_Item_BrambleVest"
+                                        ]
+                                    },
+                                    "examples": [
+                                        ["TFT_Item_StatikkShiv",
+                                            "TFT_Item_Quicksilver",
+                                            "TFT_Item_ArchangelsStaff"
+                                        ],
+                                        ["TFT_Item_RedBuff",
+                                            "TFT_Item_BrambleVest"
+                                        ]
+                                    ]
+                                },
+                                "items": {
+                                    "type": "array",
+                                    "title": "The items Schema",
+                                    "items": {
+                                        "type": "integer",
+                                        "title": "A Schema",
+                                        "examples": [
+                                            24,
+                                            69,
+                                            34,
+                                            57,
+                                            55
+                                        ]
+                                    },
+                                    "examples": [
+                                        [24, 69,
+                                            34
+                                        ],
+                                        [57,
+                                            55]
+                                    ]
+                                },
+                                "name": {
+                                    "type": "string",
+                                    "title": "The name Schema",
+                                    "examples": [
+                                        ""
+                                    ]
+                                },
+                                "rarity": {
+                                    "type": "integer",
+                                    "title": "The rarity Schema",
+                                    "examples": [
+                                        2
+                                    ]
+                                },
+                                "tier": {
+                                    "type": "integer",
+                                    "title": "The tier Schema",
+                                    "examples": [
+                                        2
+                                    ]
+                                }
+                            },
+                            "examples": [{
+                                "character_id": "TFT7_Swain",
+                                "itemNames": [
+                                    "TFT_Item_StatikkShiv",
+                                    "TFT_Item_Quicksilver",
+                                    "TFT_Item_ArchangelsStaff"
+                                ],
+                                "items": [
+                                    24,
+                                    69,
+                                    34
+                                ],
+                                "name": "",
+                                "rarity": 2,
+                                "tier": 2
+                            },
+                            {
+                                "character_id": "TFT7_LeeSin",
+                                "itemNames": [
+                                    "TFT_Item_RedBuff",
+                                    "TFT_Item_BrambleVest"
+                                ],
+                                "items": [
+                                    57,
+                                    55
+                                ],
+                                "name": "",
+                                "rarity": 2,
+                                "tier": 2
+                            }]
+                        },
+                        "examples": [
+                            [{
+                                "character_id": "TFT7_Swain",
+                                "itemNames": [
+                                    "TFT_Item_StatikkShiv",
+                                    "TFT_Item_Quicksilver",
+                                    "TFT_Item_ArchangelsStaff"
+                                ],
+                                "items": [
+                                    24,
+                                    69,
+                                    34
+                                ],
+                                "name": "",
+                                "rarity": 2,
+                                "tier": 2
+                            },
+                            {
+                                "character_id": "TFT7_LeeSin",
+                                "itemNames": [
+                                    "TFT_Item_RedBuff",
+                                    "TFT_Item_BrambleVest"
+                                ],
+                                "items": [
+                                    57,
+                                    55
+                                ],
+                                "name": "",
+                                "rarity": 2,
+                                "tier": 2
+                            }]
+                        ]
+                    }
+                },
+                "examples": [{
+                    "augments": [
+                        "TFT7_Augment_AxiomArc1",
+                        "TFT6_Augment_SecondWind1",
+                        "TFT7_Augment_DragonmancerInspire"
+                    ],
+                    "companion": {
+                        "content_ID": "023144c0-80e7-445e-846e-82b0883b9ada",
+                        "skin_ID": 33,
+                        "species": "PetDowsie"
+                    },
+                    "gold_left": 1,
+                    "last_round": 30,
+                    "level": 8,
+                    "placement": 6,
+                    "players_eliminated": 0,
+                    "puuid": "OnW1Dw_JX8vapRJEb-ZVjqdKVknpD2IGd6ZWowLTrkmoEeqZlGZTx6iR5yVW6a5tu5JVwEeDl5pToA",
+                    "time_eliminated": 1806.2384033203125,
+                    "total_damage_to_players": 66,
+                    "traits": [{
+                        "name": "Set7_Cavalier",
+                        "num_units": 1,
+                        "style": 0,
+                        "tier_current": 0,
+                        "tier_total": 4
+                    },
+                    {
+                        "name": "Set7_Dragonmancer",
+                        "num_units": 6,
+                        "style": 3,
+                        "tier_current": 2,
+                        "tier_total": 3
+                    }],
+                    "units": [{
+                        "character_id": "TFT7_Swain",
+                        "itemNames": [
+                            "TFT_Item_StatikkShiv",
+                            "TFT_Item_Quicksilver",
+                            "TFT_Item_ArchangelsStaff"
+                        ],
+                        "items": [
+                            24,
+                            69,
+                            34
+                        ],
+                        "name": "",
+                        "rarity": 2,
+                        "tier": 2
+                    },
+                    {
+                        "character_id": "TFT7_LeeSin",
+                        "itemNames": [
+                            "TFT_Item_RedBuff",
+                            "TFT_Item_BrambleVest"
+                        ],
+                        "items": [
+                            57,
+                            55
+                        ],
+                        "name": "",
+                        "rarity": 2,
+                        "tier": 2
+                    }]
+                }]
+            },
+            "examples": [
+                [{
+                    "augments": [
+                        "TFT7_Augment_AxiomArc1",
+                        "TFT6_Augment_SecondWind1",
+                        "TFT7_Augment_DragonmancerInspire"
+                    ],
+                    "companion": {
+                        "content_ID": "023144c0-80e7-445e-846e-82b0883b9ada",
+                        "skin_ID": 33,
+                        "species": "PetDowsie"
+                    },
+                    "gold_left": 1,
+                    "last_round": 30,
+                    "level": 8,
+                    "placement": 6,
+                    "players_eliminated": 0,
+                    "puuid": "OnW1Dw_JX8vapRJEb-ZVjqdKVknpD2IGd6ZWowLTrkmoEeqZlGZTx6iR5yVW6a5tu5JVwEeDl5pToA",
+                    "time_eliminated": 1806.2384033203125,
+                    "total_damage_to_players": 66,
+                    "traits": [{
+                        "name": "Set7_Cavalier",
+                        "num_units": 1,
+                        "style": 0,
+                        "tier_current": 0,
+                        "tier_total": 4
+                    },
+                    {
+                        "name": "Set7_Dragonmancer",
+                        "num_units": 6,
+                        "style": 3,
+                        "tier_current": 2,
+                        "tier_total": 3
+                    }],
+                    "units": [{
+                        "character_id": "TFT7_Swain",
+                        "itemNames": [
+                            "TFT_Item_StatikkShiv",
+                            "TFT_Item_Quicksilver",
+                            "TFT_Item_ArchangelsStaff"
+                        ],
+                        "items": [
+                            24,
+                            69,
+                            34
+                        ],
+                        "name": "",
+                        "rarity": 2,
+                        "tier": 2
+                    },
+                    {
+                        "character_id": "TFT7_LeeSin",
+                        "itemNames": [
+                            "TFT_Item_RedBuff",
+                            "TFT_Item_BrambleVest"
+                        ],
+                        "items": [
+                            57,
+                            55
+                        ],
+                        "name": "",
+                        "rarity": 2,
+                        "tier": 2
+                    }]
+                }]
+            ]
+        }
+    },
+    "examples": [{
+        "participants": [{
+            "augments": [
+                "TFT7_Augment_AxiomArc1",
+                "TFT6_Augment_SecondWind1",
+                "TFT7_Augment_DragonmancerInspire"
+            ],
+            "companion": {
+                "content_ID": "023144c0-80e7-445e-846e-82b0883b9ada",
+                "skin_ID": 33,
+                "species": "PetDowsie"
+            },
+            "gold_left": 1,
+            "last_round": 30,
+            "level": 8,
+            "placement": 6,
+            "players_eliminated": 0,
+            "puuid": "OnW1Dw_JX8vapRJEb-ZVjqdKVknpD2IGd6ZWowLTrkmoEeqZlGZTx6iR5yVW6a5tu5JVwEeDl5pToA",
+            "time_eliminated": 1806.2384033203125,
+            "total_damage_to_players": 66,
+            "traits": [{
+                "name": "Set7_Cavalier",
+                "num_units": 1,
+                "style": 0,
+                "tier_current": 0,
+                "tier_total": 4
+            },
+            {
+                "name": "Set7_Dragonmancer",
+                "num_units": 6,
+                "style": 3,
+                "tier_current": 2,
+                "tier_total": 3
+            }],
+            "units": [{
+                "character_id": "TFT7_Swain",
+                "itemNames": [
+                    "TFT_Item_StatikkShiv",
+                    "TFT_Item_Quicksilver",
+                    "TFT_Item_ArchangelsStaff"
+                ],
+                "items": [
+                    24,
+                    69,
+                    34
+                ],
+                "name": "",
+                "rarity": 2,
+                "tier": 2
+            },
+            {
+                "character_id": "TFT7_LeeSin",
+                "itemNames": [
+                    "TFT_Item_RedBuff",
+                    "TFT_Item_BrambleVest"
+                ],
+                "items": [
+                    57,
+                    55
+                ],
+                "name": "",
+                "rarity": 2,
+                "tier": 2
+            }]
+        }]
+    }]
+}

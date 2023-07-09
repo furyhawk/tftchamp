@@ -1,0 +1,200 @@
+{
+    "metadata": {
+        "data_version": "5",
+        "match_id": "NA1_4356726048",
+        "participants": [
+            "OnW1Dw_JX8vapRJEb-ZVjqdKVknpD2IGd6ZWowLTrkmoEeqZlGZTx6iR5yVW6a5tu5JVwEeDl5pToA",
+            "St_wL0UOxf_11zObuZn-7FE-yGRGjfjFaeHlAbCMCESgyqgS636iSJhu5qxxDqBq7XuNlL4I161r8g",
+            "gknC54sLodRm73oByx1NIFCSfm54xwWHjpKHygy5vOQsTqpu_xtnffa_mmgUncFExF3vfvenX6HXBw",
+            "SIxmDzDxdLvM02pCXLiUI86YYgmqCozEeXBst7wGjAfen4M4kHnWfUPWQyhEb17Bmgc4UUSEnhtu5g",
+            "FjLKIVYYUSrV37F_ZcBfkdPfRtkqXlYgw5u8WWv6WI7MYX1Jied9NPYPNLYum1ukzbYyWcCCZDMCKw",
+            "TKiOPQ-2gmZ2BJEKRyRSRQneWiJHgoG-VwTpDSSvnTdpQdLkljmB9wxxucxx1TrxheBsAhAxlgqAJw",
+            "l1I1H2cDsK118VC-ZvKzZqJ5QZynz7aJ7GsMR3fu5KNbmK3a0FTNivKnzyHZY7mq9QFWVmPpaq6QdA",
+            "SYeHG18d6HblklTVFAcDoGsAXWwTq1ZeflhRbaztiP900sTmW7qH8XNeyZyciYbeZe1daqEK7Lt_TQ"
+        ]
+    },
+    "info": {
+        "game_datetime": 1656394119211,
+        "game_length": 2371.135986328125,
+        "game_version": "Version 12.12.450.4196 (Jun 24 2022/13: 37: 31) [PUBLIC    ] <Releases/12.12>",
+        "participants": [
+            {
+                "augments": [
+                    "TFT7_Augment_AxiomArc1",
+                    "TFT6_Augment_SecondWind1",
+                    "TFT7_Augment_DragonmancerInspire"
+                ],
+                "companion": {
+                    "content_ID": "023144c0-80e7-445e-846e-82b0883b9ada",
+                    "skin_ID": 33,
+                    "species": "PetDowsie"
+                },
+                "gold_left": 1,
+                "last_round": 30,
+                "level": 8,
+                "placement": 6,
+                "players_eliminated": 0,
+                "puuid": "OnW1Dw_JX8vapRJEb-ZVjqdKVknpD2IGd6ZWowLTrkmoEeqZlGZTx6iR5yVW6a5tu5JVwEeDl5pToA",
+                "time_eliminated": 1806.2384033203125,
+                "total_damage_to_players": 66,
+                "traits": [
+                    {
+                        "name": "Set7_Cavalier",
+                        "num_units": 1,
+                        "style": 0,
+                        "tier_current": 0,
+                        "tier_total": 4
+                    },
+                    {
+                        "name": "Set7_Dragonmancer",
+                        "num_units": 6,
+                        "style": 3,
+                        "tier_current": 2,
+                        "tier_total": 3
+                    },
+                    {
+                        "name": "Set7_Jade",
+                        "num_units": 3,
+                        "style": 1,
+                        "tier_current": 1,
+                        "tier_total": 4
+                    },
+                    {
+                        "name": "Set7_Legend",
+                        "num_units": 1,
+                        "style": 0,
+                        "tier_current": 0,
+                        "tier_total": 1
+                    },
+                    {
+                        "name": "Set7_Ragewing",
+                        "num_units": 3,
+                        "style": 1,
+                        "tier_current": 1,
+                        "tier_total": 3
+                    },
+                    {
+                        "name": "Set7_Shapeshifter",
+                        "num_units": 2,
+                        "style": 1,
+                        "tier_current": 1,
+                        "tier_total": 3
+                    },
+                    {
+                        "name": "Set7_Shimmerscale",
+                        "num_units": 1,
+                        "style": 0,
+                        "tier_current": 0,
+                        "tier_total": 4
+                    },
+                    {
+                        "name": "Set7_Swiftshot",
+                        "num_units": 1,
+                        "style": 0,
+                        "tier_current": 0,
+                        "tier_total": 3
+                    },
+                    {
+                        "name": "Set7_Tempest",
+                        "num_units": 1,
+                        "style": 0,
+                        "tier_current": 0,
+                        "tier_total": 4
+                    }
+                ],
+                "units": [
+                    {
+                        "character_id": "TFT7_Sett",
+                        "itemNames": [],
+                        "items": [],
+                        "name": "",
+                        "rarity": 0,
+                        "tier": 2
+                    },
+                    {
+                        "character_id": "TFT7_Karma",
+                        "itemNames": [],
+                        "items": [],
+                        "name": "",
+                        "rarity": 0,
+                        "tier": 2
+                    },
+                    {
+                        "character_id": "TFT7_Ashe",
+                        "itemNames": [],
+                        "items": [],
+                        "name": "",
+                        "rarity": 1,
+                        "tier": 2
+                    },
+                    {
+                        "character_id": "TFT7_LeeSin",
+                        "itemNames": [
+                            "TFT_Item_RedBuff",
+                            "TFT_Item_BrambleVest"
+                        ],
+                        "items": [
+                            57,
+                            55
+                        ],
+                        "name": "",
+                        "rarity": 2,
+                        "tier": 2
+                    },
+                    {
+                        "character_id": "TFT7_Swain",
+                        "itemNames": [
+                            "TFT_Item_StatikkShiv",
+                            "TFT_Item_Quicksilver",
+                            "TFT_Item_ArchangelsStaff"
+                        ],
+                        "items": [
+                            24,
+                            69,
+                            34
+                        ],
+                        "name": "",
+                        "rarity": 2,
+                        "tier": 2
+                    },
+                    {
+                        "character_id": "TFT7_Volibear",
+                        "itemNames": [],
+                        "items": [],
+                        "name": "",
+                        "rarity": 2,
+                        "tier": 2
+                    },
+                    {
+                        "character_id": "TFT7_Hecarim",
+                        "itemNames": [],
+                        "items": [],
+                        "name": "",
+                        "rarity": 3,
+                        "tier": 1
+                    },
+                    {
+                        "character_id": "TFT7_Neeko",
+                        "itemNames": [
+                            "TFT_Item_DragonsClaw",
+                            "TFT_Item_FrozenHeart",
+                            "TFT_Item_Bloodthirster"
+                        ],
+                        "items": [
+                            66,
+                            45,
+                            16
+                        ],
+                        "name": "",
+                        "rarity": 3,
+                        "tier": 2
+                    }
+                ]
+            }
+        ],
+        "queue_id": 1100,
+        "tft_game_type": "standard",
+        "tft_set_core_name": "TFTSet7",
+        "tft_set_number": 7
+    }
+}

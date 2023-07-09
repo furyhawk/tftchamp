@@ -1,0 +1,80 @@
+{
+    "name": "XGBRegressor",
+    "model": {
+        "type": "Model",
+        "args": {
+            "pipeline": [
+                "column_transformer",
+                "XGB"
+            ],
+            "unions": {}
+        }
+    },
+    "tuned_parameters": [
+        {
+            "XGB__objective": [
+                "reg:squarederror"
+            ],
+            "XGB__eval_metric": [
+                "mae"
+            ],
+            "XGB__n_estimators": [
+                300
+            ],
+            "XGB__learning_rate": [
+                0.300000012
+            ],
+            "XGB__gamma": [
+                0.1
+            ],
+            "XGB__alpha": [
+                0
+            ],
+            "XGB__max_depth": [
+                12
+            ],
+            "XGB__use_label_encoder": [
+                false
+            ]
+        }
+    ],
+    "optimizer": "OptimizerRegression",
+    "search_method": {
+        "type": "HalvingRandomSearchCV",
+        "args": {
+            "refit": false,
+            "n_jobs": -1,
+            "verbose": 2,
+            "error_score": 0
+        }
+    },
+    "cross_validation": {
+        "type": "RepeatedStratifiedKFold",
+        "args": {
+            "n_splits": 5,
+            "n_repeats": 1,
+            "random_state": 42
+        }
+    },
+    "data_loader": {
+        "type": "TFT_Challengers",
+        "args": {
+            "data_path": "na1_grandmasters_13.10.509.8402_matches",
+            "shuffle": true,
+            "test_split": 0.20,
+            "stratify": true,
+            "random_state": 42
+        }
+    },
+    "label_name": "placement",
+    "score": "max neg_mean_absolute_error",
+    "train_model": true,
+    "test_model": true,
+    "debug": false,
+    "save_dir": "saved/",
+    "model_dir": "",
+    "server": "na1",
+    "league":  "grandmasters",
+    "latest_release": "13.10.509.8402",
+    "patch": "2023-05-16"
+}

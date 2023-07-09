@@ -1,0 +1,63 @@
+{
+    "name": "MLPRegressor",
+    "model": {
+        "type": "Model",
+        "args": {
+            "pipeline": [
+                "column_transformer",
+                "MLPReg"
+            ],
+            "unions": {}
+        }
+    },
+    "tuned_parameters": [
+        {
+            "MLPReg__hidden_layer_sizes": [
+                [
+                    50, 25, 10
+                ]
+            ],
+            "MLPReg__optimizer__learning_rate": [
+                0.007
+            ],
+            "MLPReg__epochs": [
+                70
+            ]
+        }
+    ],
+    "optimizer": "OptimizerRegression",
+    "search_method": {
+        "type": "HalvingRandomSearchCV",
+        "args": {
+            "refit": false,
+            "n_jobs": -1,
+            "verbose": 2,
+            "error_score": 0
+        }
+    },
+    "cross_validation": {
+        "type": "RepeatedStratifiedKFold",
+        "args": {
+            "n_splits": 5,
+            "n_repeats": 1,
+            "random_state": 42
+        }
+    },
+    "data_loader": {
+        "type": "TFT_Challengers",
+        "args": {
+            "data_path": "na1_challengers_12.14.456.5556_3days_matches",
+            "shuffle": true,
+            "test_split": 0.20,
+            "stratify": true,
+            "random_state": 42
+        }
+    },
+    "label_name": "placement",
+    "score": "max neg_mean_absolute_error",
+    "train_model": true,
+    "test_model": true,
+    "debug": false,
+    "save_dir": "saved/",
+    "model_dir": ""
+}

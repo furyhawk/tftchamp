@@ -1,0 +1,14 @@
+{
+    "name": "challengers",
+    "load_new": true,
+    "server": "na1",
+    "servers": ["na1", "euw1", "kr"],
+    "league":  "challengers",
+    "max_count": 30,
+    "latest_release": "13.10.509.8402",
+    "ranked_id": 1100,
+    "patch": "2023-05-16",
+    "debug": false,
+    "save_dir": "saved/",
+    "model_dir": "saved/challengers"
+}

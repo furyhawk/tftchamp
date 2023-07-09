@@ -1,0 +1,14 @@
+{
+    "name": "kr_challengers",
+    "load_new": true,
+    "servers": ["kr"],
+    "league":  "challengers",
+    "max_count": 3,
+    "ranked_id": 1100,
+    "latest_release": "13.10.509.8402",
+    "patch": "2023-05-16",
+    "save_csv": false,
+    "save_png": false,
+    "debug": false,
+    "save_dir": "saved/"
+}

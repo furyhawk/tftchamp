@@ -1,0 +1,39 @@
+version: '3.8'
+services: 
+
+    web :
+        image: furyhawk/tftchamp_frontend
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile
+        container_name: tftchamp_frontend
+        environment:
+            - ATLAS_URI=${ATLAS_URI}
+            - DB_NAME=${DB_NAME}
+            - RIOT_API_KEY=${RIOT_API_KEY}
+            - PATCH=${PATCH}
+            - LATEST_RELEASE=${LATEST_RELEASE}
+        ports:
+            - "8080:80"
+        volumes:
+            - ./:/frontend
+            - /frontend/node_modules
+        restart: on-failure
+        depends_on:
+            - backend
+    backend:
+        image: furyhawk/tftchamp_endpoint
+        build:
+            context: ./backend
+            dockerfile: Dockerfile
+        container_name: tftchamp_endpoint
+        environment:
+            - ATLAS_URI=${ATLAS_URI}
+            - DB_NAME=${DB_NAME}
+            - RIOT_API_KEY=${RIOT_API_KEY}
+            - PATCH=${PATCH}
+            - LATEST_RELEASE=${LATEST_RELEASE}
+        command: uvicorn main:app --host 0.0.0.0 --port 8000
+        ports:
+            - "8000:8000"
+
